@@ -8,7 +8,7 @@ export default function LuleBaKhun({ khunCount }) {
   }
 
   return (
-    <div className="relative h-44 w-10 bg-white rounded-b-full">
+    <div className="relative h-44 w-10 bg-gradient-to-b from-gray-200 to-al-2 rounded-b-full">
       {khunNumber.map((k, i) => (
         <div key={i}>
           <Khun />

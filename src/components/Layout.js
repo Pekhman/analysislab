@@ -10,7 +10,7 @@ export default function Layout({ children }) {
     // <div style={{'--image-url': `url(${Tablo})`}}
     // className='bg-[image:var(--image-url)]'>
 
-    <div>
+    <div className="bg-gradient-to-r bg-gradient-to-b from-white to-sky-100">
       <Navbar element={findel} />
       <div className="p-4">{children}</div>
       <div className="h-[1000px]">hello</div>

@@ -38,9 +38,19 @@ export default function App() {
         {/* <div className="flex justify-center p-3">
           <div className=" bg-al-2 p-10"><Banner className="" /></div>
         </div> */}
-        <div className="bg-al-2 p-10"><Banner className="" /></div>
+        {/* <div className="flex justify-center">
+          <div className="p-10 min-w-[300px] m-auto">
+            <Banner className="" />
+          </div>
+        </div> */}
 
-        
+
+          <div className="p-10">
+            <Banner className="" />
+          </div>
+
+
+
         {/* {myEvents.map((e) => (
           <div>
             <h1>{e.title}</h1>
