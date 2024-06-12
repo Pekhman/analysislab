@@ -1,0 +1,73 @@
+/* animation bala -> paiin -> bala */
+
+@keyframes bubble-top-to-bottom {
+  0%,
+  100% {
+    transform: translateY(8rem);
+  }
+
+  50% {
+    transform: translateY(0rem);
+  }
+}
+
+/* animation paiin -> bala -> paiin */
+@keyframes bubble-bottom-to-top {
+  0%,
+  100% {
+    transform: translateY(0rem);
+  }
+
+  50% {
+    transform: translateY(8rem);
+  }
+}
+
+/* class vase play kardane animation ba zaman bandi va noe animatione motefavet */
+.bubble_ttb_fast {
+  animation: bubble-top-to-bottom 1s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.bubble_ttb_fast {
+  animation: bubble-top-to-bottom 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.bubble_ttb_fast {
+  animation: bubble-top-to-bottom 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.bubble_ttb_fast {
+  animation: bubble-top-to-bottom 2.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.bubble_ttb_fast {
+  animation: bubble-top-to-bottom 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.bubble_ttb_slow {
+  animation: bubble-top-to-bottom 3.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.bubble_btt_fast {
+  animation: bubble-bottom-to-top 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.bubble_btt_fast {
+  animation: bubble-bottom-to-top 4.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.bubble_btt_fast {
+  animation: bubble-bottom-to-top 5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.bubble_btt_fast {
+  animation: bubble-bottom-to-top 5.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.bubble_btt_slow {
+  animation: bubble-bottom-to-top 6s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* .down {
+  animation: do-down 0.4s forwards;
+} */
